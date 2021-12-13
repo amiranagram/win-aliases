@@ -19,4 +19,9 @@ function runArtisan($arg1, $arg2, $arg3, $arg4, $arg5) {
     php artisan $arg1, $arg2, $arg3, $arg4, $arg5
 }
 
+function runTinker() {
+    php artisan tinker
+}
+
 Set-Alias art runArtisan
+Set-Alias tinker runTinker
